@@ -1,0 +1,6 @@
+framework module ViodocCore {
+  umbrella header "ViodocCore.h"
+
+  export *
+  module * { export * }
+}

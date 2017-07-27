@@ -1,0 +1,6 @@
+framework module NioxUtilsCore {
+  umbrella header "NioxUtilsCore.h"
+
+  export *
+  module * { export * }
+}

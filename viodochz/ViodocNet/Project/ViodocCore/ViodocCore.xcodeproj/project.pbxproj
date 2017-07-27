@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		621D52B31DD1EBF90012BCA5 /* ViodocCoreAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 621D52B61DD1EBF90012BCA5 /* Build configuration list for PBXAggregateTarget "ViodocCoreAggregate" */;
+			buildPhases = (
+				621D52B71DD1EC3D0012BCA5 /* Run Script */,
+			);
+			dependencies = (
+			);
+			name = ViodocCoreAggregate;
+			productName = NioxCoreAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		266AAC3F1ED805C3003A6FAE /* NSData+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABB51ED805C3003A6FAE /* NSData+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC401ED805C3003A6FAE /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABB61ED805C3003A6FAE /* NSData+AES256.m */; };
+		266AAC411ED805C3003A6FAE /* NSString+AES256.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABB71ED805C3003A6FAE /* NSString+AES256.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC421ED805C3003A6FAE /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABB81ED805C3003A6FAE /* NSString+AES256.m */; };
+		266AAC431ED805C3003A6FAE /* NSString+md5HexDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABB91ED805C3003A6FAE /* NSString+md5HexDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC441ED805C3003A6FAE /* NSString+md5HexDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABBA1ED805C3003A6FAE /* NSString+md5HexDigest.m */; };
+		266AAC451ED805C3003A6FAE /* NSString+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABBB1ED805C3003A6FAE /* NSString+SHA.h */; };
+		266AAC461ED805C3003A6FAE /* NSString+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABBC1ED805C3003A6FAE /* NSString+SHA.m */; };
+		266AAC471ED805C3003A6FAE /* NMEmartClientManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABBF1ED805C3003A6FAE /* NMEmartClientManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC481ED805C3003A6FAE /* NMEmartClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABC01ED805C3003A6FAE /* NMEmartClientManager.m */; };
+		266AAC491ED805C3003A6FAE /* NMLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABC11ED805C3003A6FAE /* NMLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC4A1ED805C3003A6FAE /* NMLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABC21ED805C3003A6FAE /* NMLogin.m */; };
+		266AAC4B1ED805C3003A6FAE /* MtApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABC41ED805C3003A6FAE /* MtApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC4C1ED805C3003A6FAE /* MtApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABC51ED805C3003A6FAE /* MtApi.m */; };
+		266AAC4D1ED805C3003A6FAE /* MtBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABC61ED805C3003A6FAE /* MtBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC4E1ED805C3003A6FAE /* MtBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABC71ED805C3003A6FAE /* MtBase.m */; };
+		266AAC4F1ED805C3003A6FAE /* MtReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABC81ED805C3003A6FAE /* MtReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC501ED805C3003A6FAE /* MtReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABC91ED805C3003A6FAE /* MtReq.m */; };
+		266AAC511ED805C3003A6FAE /* MtResp.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABCA1ED805C3003A6FAE /* MtResp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC521ED805C3003A6FAE /* MtResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABCB1ED805C3003A6FAE /* MtResp.m */; };
+		266AAC531ED805C3003A6FAE /* MtRespDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABCC1ED805C3003A6FAE /* MtRespDto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC541ED805C3003A6FAE /* MtRespDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABCD1ED805C3003A6FAE /* MtRespDto.m */; };
+		266AAC551ED805C3003A6FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 266AABCE1ED805C3003A6FAE /* Info.plist */; };
+		266AAC561ED805C3003A6FAE /* NotificationKeyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABCF1ED805C3003A6FAE /* NotificationKeyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC571ED805C3003A6FAE /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABD31ED805C3003A6FAE /* TBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC581ED805C3003A6FAE /* TBinaryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABD41ED805C3003A6FAE /* TBinaryProtocol.h */; };
+		266AAC591ED805C3003A6FAE /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABD51ED805C3003A6FAE /* TBinaryProtocol.m */; };
+		266AAC5A1ED805C3003A6FAE /* TCompactProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABD61ED805C3003A6FAE /* TCompactProtocol.h */; };
+		266AAC5B1ED805C3003A6FAE /* TCompactProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABD71ED805C3003A6FAE /* TCompactProtocol.m */; };
+		266AAC5C1ED805C3003A6FAE /* TMultiplexedProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABD81ED805C3003A6FAE /* TMultiplexedProtocol.h */; };
+		266AAC5D1ED805C3003A6FAE /* TMultiplexedProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABD91ED805C3003A6FAE /* TMultiplexedProtocol.m */; };
+		266AAC5E1ED805C3003A6FAE /* TProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABDA1ED805C3003A6FAE /* TProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC5F1ED805C3003A6FAE /* TProtocolDecorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABDB1ED805C3003A6FAE /* TProtocolDecorator.h */; };
+		266AAC601ED805C3003A6FAE /* TProtocolDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABDC1ED805C3003A6FAE /* TProtocolDecorator.m */; };
+		266AAC611ED805C3003A6FAE /* TProtocolException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABDD1ED805C3003A6FAE /* TProtocolException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC621ED805C3003A6FAE /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABDE1ED805C3003A6FAE /* TProtocolException.m */; };
+		266AAC631ED805C3003A6FAE /* TProtocolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABDF1ED805C3003A6FAE /* TProtocolFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC641ED805C3003A6FAE /* TProtocolUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABE01ED805C3003A6FAE /* TProtocolUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC651ED805C3003A6FAE /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABE11ED805C3003A6FAE /* TProtocolUtil.m */; };
+		266AAC661ED805C3003A6FAE /* TSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABE31ED805C3003A6FAE /* TSocketServer.h */; };
+		266AAC671ED805C3003A6FAE /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABE41ED805C3003A6FAE /* TSocketServer.m */; };
+		266AAC681ED805C3003A6FAE /* TApplicationException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABE51ED805C3003A6FAE /* TApplicationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC691ED805C3003A6FAE /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABE61ED805C3003A6FAE /* TApplicationException.m */; };
+		266AAC6A1ED805C3003A6FAE /* TBaseClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABE71ED805C3003A6FAE /* TBaseClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC6B1ED805C3003A6FAE /* TBaseClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABE81ED805C3003A6FAE /* TBaseClient.m */; };
+		266AAC6C1ED805C3003A6FAE /* TException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABE91ED805C3003A6FAE /* TException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC6D1ED805C3003A6FAE /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABEA1ED805C3003A6FAE /* TException.m */; };
+		266AAC6E1ED805C3003A6FAE /* Thrift.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABEB1ED805C3003A6FAE /* Thrift.h */; };
+		266AAC6F1ED805C3003A6FAE /* TObjective-C.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABEC1ED805C3003A6FAE /* TObjective-C.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC701ED805C3003A6FAE /* TProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABED1ED805C3003A6FAE /* TProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC711ED805C3003A6FAE /* TProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABEE1ED805C3003A6FAE /* TProcessorFactory.h */; };
+		266AAC721ED805C3003A6FAE /* TAsyncTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF01ED805C3003A6FAE /* TAsyncTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC731ED805C3003A6FAE /* TFramedTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF11ED805C3003A6FAE /* TFramedTransport.h */; };
+		266AAC741ED805C3003A6FAE /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABF21ED805C3003A6FAE /* TFramedTransport.m */; };
+		266AAC751ED805C3003A6FAE /* THTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF31ED805C3003A6FAE /* THTTPClient.h */; };
+		266AAC761ED805C3003A6FAE /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABF41ED805C3003A6FAE /* THTTPClient.m */; };
+		266AAC771ED805C3003A6FAE /* TMemoryBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF51ED805C3003A6FAE /* TMemoryBuffer.h */; };
+		266AAC781ED805C3003A6FAE /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABF61ED805C3003A6FAE /* TMemoryBuffer.m */; };
+		266AAC791ED805C3003A6FAE /* TNSFileHandleTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF71ED805C3003A6FAE /* TNSFileHandleTransport.h */; };
+		266AAC7A1ED805C3003A6FAE /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABF81ED805C3003A6FAE /* TNSFileHandleTransport.m */; };
+		266AAC7B1ED805C3003A6FAE /* TNSStreamTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABF91ED805C3003A6FAE /* TNSStreamTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC7C1ED805C3003A6FAE /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABFA1ED805C3003A6FAE /* TNSStreamTransport.m */; };
+		266AAC7D1ED805C3003A6FAE /* TSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABFB1ED805C3003A6FAE /* TSocketClient.h */; };
+		266AAC7E1ED805C3003A6FAE /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABFC1ED805C3003A6FAE /* TSocketClient.m */; };
+		266AAC7F1ED805C3003A6FAE /* TSSLSocketClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABFD1ED805C3003A6FAE /* TSSLSocketClient.h */; };
+		266AAC801ED805C3003A6FAE /* TSSLSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AABFE1ED805C3003A6FAE /* TSSLSocketClient.m */; };
+		266AAC811ED805C3003A6FAE /* TSSLSocketException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AABFF1ED805C3003A6FAE /* TSSLSocketException.h */; };
+		266AAC821ED805C3003A6FAE /* TSSLSocketException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC001ED805C3003A6FAE /* TSSLSocketException.m */; };
+		266AAC831ED805C3003A6FAE /* TTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC011ED805C3003A6FAE /* TTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC841ED805C3003A6FAE /* TTransportException.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC021ED805C3003A6FAE /* TTransportException.h */; };
+		266AAC851ED805C3003A6FAE /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC031ED805C3003A6FAE /* TTransportException.m */; };
+		266AAC861ED805C3003A6FAE /* TSharedProcessorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC041ED805C3003A6FAE /* TSharedProcessorFactory.h */; };
+		266AAC871ED805C3003A6FAE /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC051ED805C3003A6FAE /* TSharedProcessorFactory.m */; };
+		266AAC881ED805C3003A6FAE /* AMDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC081ED805C3003A6FAE /* AMDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC891ED805C3003A6FAE /* AMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC091ED805C3003A6FAE /* AMDBHelper.m */; };
+		266AAC8A1ED805C3003A6FAE /* NetworkConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC0B1ED805C3003A6FAE /* NetworkConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC8B1ED805C3003A6FAE /* NetworkConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC0C1ED805C3003A6FAE /* NetworkConfigure.m */; };
+		266AAC8C1ED805C3003A6FAE /* NXTFApi1ClientManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC0D1ED805C3003A6FAE /* NXTFApi1ClientManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC8D1ED805C3003A6FAE /* NXTFApi1ClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC0E1ED805C3003A6FAE /* NXTFApi1ClientManager.m */; };
+		266AAC8E1ED805C3003A6FAE /* AMMServiceCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC111ED805C3003A6FAE /* AMMServiceCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC8F1ED805C3003A6FAE /* AMMServiceCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC121ED805C3003A6FAE /* AMMServiceCode.m */; };
+		266AAC901ED805C3003A6FAE /* AMMNotice.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC141ED805C3003A6FAE /* AMMNotice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC911ED805C3003A6FAE /* AMMNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC151ED805C3003A6FAE /* AMMNotice.m */; };
+		266AAC921ED805C3003A6FAE /* AMMGesUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC171ED805C3003A6FAE /* AMMGesUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC931ED805C3003A6FAE /* AMMGesUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC181ED805C3003A6FAE /* AMMGesUserInfo.m */; };
+		266AAC941ED805C3003A6FAE /* AMAAppointmentAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC1A1ED805C3003A6FAE /* AMAAppointmentAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC951ED805C3003A6FAE /* AMAAppointmentAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC1B1ED805C3003A6FAE /* AMAAppointmentAPI.m */; };
+		266AAC961ED805C3003A6FAE /* AMAAppSystemAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC1C1ED805C3003A6FAE /* AMAAppSystemAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC971ED805C3003A6FAE /* AMAAppSystemAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC1D1ED805C3003A6FAE /* AMAAppSystemAPI.m */; };
+		266AAC981ED805C3003A6FAE /* AMADoctorAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC1E1ED805C3003A6FAE /* AMADoctorAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC991ED805C3003A6FAE /* AMADoctorAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC1F1ED805C3003A6FAE /* AMADoctorAPI.m */; };
+		266AAC9A1ED805C3003A6FAE /* AMAGuideAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC201ED805C3003A6FAE /* AMAGuideAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC9B1ED805C3003A6FAE /* AMAGuideAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC211ED805C3003A6FAE /* AMAGuideAPI.m */; };
+		266AAC9C1ED805C3003A6FAE /* AMAInsuranceAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC221ED805C3003A6FAE /* AMAInsuranceAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC9D1ED805C3003A6FAE /* AMAInsuranceAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC231ED805C3003A6FAE /* AMAInsuranceAPI.m */; };
+		266AAC9E1ED805C3003A6FAE /* AMANoticeAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC241ED805C3003A6FAE /* AMANoticeAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AAC9F1ED805C3003A6FAE /* AMANoticeAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC251ED805C3003A6FAE /* AMANoticeAPI.m */; };
+		266AACA01ED805C3003A6FAE /* AMAOrderAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC261ED805C3003A6FAE /* AMAOrderAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACA11ED805C3003A6FAE /* AMAOrderAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC271ED805C3003A6FAE /* AMAOrderAPI.m */; };
+		266AACA21ED805C3003A6FAE /* AMAReportAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC281ED805C3003A6FAE /* AMAReportAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACA31ED805C3003A6FAE /* AMAReportAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC291ED805C3003A6FAE /* AMAReportAPI.m */; };
+		266AACA41ED805C3003A6FAE /* AMAUserCenterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC2A1ED805C3003A6FAE /* AMAUserCenterAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACA51ED805C3003A6FAE /* AMAUserCenterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC2B1ED805C3003A6FAE /* AMAUserCenterAPI.m */; };
+		266AACA61ED805C3003A6FAE /* AMAVisitInAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC2C1ED805C3003A6FAE /* AMAVisitInAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACA71ED805C3003A6FAE /* AMAVisitInAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC2D1ED805C3003A6FAE /* AMAVisitInAPI.m */; };
+		266AACA81ED805C3003A6FAE /* NXLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC2E1ED805C3003A6FAE /* NXLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACA91ED805C3003A6FAE /* NXLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC2F1ED805C3003A6FAE /* NXLogin.m */; };
+		266AACAA1ED805C3003A6FAE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC301ED805C3003A6FAE /* Reachability.h */; };
+		266AACAB1ED805C3003A6FAE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC311ED805C3003A6FAE /* Reachability.m */; };
+		266AACAC1ED805C3003A6FAE /* Api.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC331ED805C3003A6FAE /* Api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACAD1ED805C3003A6FAE /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC341ED805C3003A6FAE /* Api.m */; };
+		266AACAE1ED805C3003A6FAE /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC351ED805C3003A6FAE /* Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACAF1ED805C3003A6FAE /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC361ED805C3003A6FAE /* Base.m */; };
+		266AACB01ED805C3003A6FAE /* Req.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC371ED805C3003A6FAE /* Req.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACB11ED805C3003A6FAE /* Req.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC381ED805C3003A6FAE /* Req.m */; };
+		266AACB21ED805C3003A6FAE /* Resp.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC391ED805C3003A6FAE /* Resp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACB31ED805C3003A6FAE /* Resp.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC3A1ED805C3003A6FAE /* Resp.m */; };
+		266AACB41ED805C3003A6FAE /* RespDto.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC3B1ED805C3003A6FAE /* RespDto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACB51ED805C3003A6FAE /* RespDto.m in Sources */ = {isa = PBXBuildFile; fileRef = 266AAC3C1ED805C3003A6FAE /* RespDto.m */; };
+		266AACB61ED805C3003A6FAE /* ViodocCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC3D1ED805C3003A6FAE /* ViodocCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266AACB71ED805C3003A6FAE /* ViodocCoreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 266AAC3E1ED805C3003A6FAE /* ViodocCoreHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62E291E41DD09A7B00EA36C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291E31DD09A7B00EA36C3 /* UIKit.framework */; };
+		62E291E61DD09A9B00EA36C3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291E51DD09A9B00EA36C3 /* CoreImage.framework */; };
+		62E291E81DD09AAE00EA36C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291E71DD09AAE00EA36C3 /* Foundation.framework */; };
+		62E291EA1DD09AB900EA36C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291E91DD09AB900EA36C3 /* CoreGraphics.framework */; };
+		62E291EC1DD09AC500EA36C3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291EB1DD09AC500EA36C3 /* MobileCoreServices.framework */; };
+		62E291EE1DD09AD600EA36C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E291ED1DD09AD600EA36C3 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266AABB51ED805C3003A6FAE /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		266AABB61ED805C3003A6FAE /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		266AABB71ED805C3003A6FAE /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		266AABB81ED805C3003A6FAE /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		266AABB91ED805C3003A6FAE /* NSString+md5HexDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+md5HexDigest.h"; sourceTree = "<group>"; };
+		266AABBA1ED805C3003A6FAE /* NSString+md5HexDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+md5HexDigest.m"; sourceTree = "<group>"; };
+		266AABBB1ED805C3003A6FAE /* NSString+SHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA.h"; sourceTree = "<group>"; };
+		266AABBC1ED805C3003A6FAE /* NSString+SHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA.m"; sourceTree = "<group>"; };
+		266AABBF1ED805C3003A6FAE /* NMEmartClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMEmartClientManager.h; sourceTree = "<group>"; };
+		266AABC01ED805C3003A6FAE /* NMEmartClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMEmartClientManager.m; sourceTree = "<group>"; };
+		266AABC11ED805C3003A6FAE /* NMLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLogin.h; sourceTree = "<group>"; };
+		266AABC21ED805C3003A6FAE /* NMLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLogin.m; sourceTree = "<group>"; };
+		266AABC41ED805C3003A6FAE /* MtApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtApi.h; sourceTree = "<group>"; };
+		266AABC51ED805C3003A6FAE /* MtApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtApi.m; sourceTree = "<group>"; };
+		266AABC61ED805C3003A6FAE /* MtBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtBase.h; sourceTree = "<group>"; };
+		266AABC71ED805C3003A6FAE /* MtBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtBase.m; sourceTree = "<group>"; };
+		266AABC81ED805C3003A6FAE /* MtReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtReq.h; sourceTree = "<group>"; };
+		266AABC91ED805C3003A6FAE /* MtReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtReq.m; sourceTree = "<group>"; };
+		266AABCA1ED805C3003A6FAE /* MtResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtResp.h; sourceTree = "<group>"; };
+		266AABCB1ED805C3003A6FAE /* MtResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtResp.m; sourceTree = "<group>"; };
+		266AABCC1ED805C3003A6FAE /* MtRespDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtRespDto.h; sourceTree = "<group>"; };
+		266AABCD1ED805C3003A6FAE /* MtRespDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtRespDto.m; sourceTree = "<group>"; };
+		266AABCE1ED805C3003A6FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266AABCF1ED805C3003A6FAE /* NotificationKeyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationKeyHeader.h; sourceTree = "<group>"; };
+		266AABD31ED805C3003A6FAE /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		266AABD41ED805C3003A6FAE /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		266AABD51ED805C3003A6FAE /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		266AABD61ED805C3003A6FAE /* TCompactProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCompactProtocol.h; sourceTree = "<group>"; };
+		266AABD71ED805C3003A6FAE /* TCompactProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCompactProtocol.m; sourceTree = "<group>"; };
+		266AABD81ED805C3003A6FAE /* TMultiplexedProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMultiplexedProtocol.h; sourceTree = "<group>"; };
+		266AABD91ED805C3003A6FAE /* TMultiplexedProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMultiplexedProtocol.m; sourceTree = "<group>"; };
+		266AABDA1ED805C3003A6FAE /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		266AABDB1ED805C3003A6FAE /* TProtocolDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolDecorator.h; sourceTree = "<group>"; };
+		266AABDC1ED805C3003A6FAE /* TProtocolDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolDecorator.m; sourceTree = "<group>"; };
+		266AABDD1ED805C3003A6FAE /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		266AABDE1ED805C3003A6FAE /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		266AABDF1ED805C3003A6FAE /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		266AABE01ED805C3003A6FAE /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		266AABE11ED805C3003A6FAE /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		266AABE31ED805C3003A6FAE /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		266AABE41ED805C3003A6FAE /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		266AABE51ED805C3003A6FAE /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		266AABE61ED805C3003A6FAE /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		266AABE71ED805C3003A6FAE /* TBaseClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseClient.h; sourceTree = "<group>"; };
+		266AABE81ED805C3003A6FAE /* TBaseClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseClient.m; sourceTree = "<group>"; };
+		266AABE91ED805C3003A6FAE /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		266AABEA1ED805C3003A6FAE /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		266AABEB1ED805C3003A6FAE /* Thrift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thrift.h; sourceTree = "<group>"; };
+		266AABEC1ED805C3003A6FAE /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		266AABED1ED805C3003A6FAE /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		266AABEE1ED805C3003A6FAE /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		266AABF01ED805C3003A6FAE /* TAsyncTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAsyncTransport.h; sourceTree = "<group>"; };
+		266AABF11ED805C3003A6FAE /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		266AABF21ED805C3003A6FAE /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		266AABF31ED805C3003A6FAE /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		266AABF41ED805C3003A6FAE /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		266AABF51ED805C3003A6FAE /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		266AABF61ED805C3003A6FAE /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		266AABF71ED805C3003A6FAE /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		266AABF81ED805C3003A6FAE /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		266AABF91ED805C3003A6FAE /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		266AABFA1ED805C3003A6FAE /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		266AABFB1ED805C3003A6FAE /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		266AABFC1ED805C3003A6FAE /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		266AABFD1ED805C3003A6FAE /* TSSLSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketClient.h; sourceTree = "<group>"; };
+		266AABFE1ED805C3003A6FAE /* TSSLSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketClient.m; sourceTree = "<group>"; };
+		266AABFF1ED805C3003A6FAE /* TSSLSocketException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSLSocketException.h; sourceTree = "<group>"; };
+		266AAC001ED805C3003A6FAE /* TSSLSocketException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSLSocketException.m; sourceTree = "<group>"; };
+		266AAC011ED805C3003A6FAE /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		266AAC021ED805C3003A6FAE /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		266AAC031ED805C3003A6FAE /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		266AAC041ED805C3003A6FAE /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		266AAC051ED805C3003A6FAE /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		266AAC081ED805C3003A6FAE /* AMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDBHelper.h; sourceTree = "<group>"; };
+		266AAC091ED805C3003A6FAE /* AMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDBHelper.m; sourceTree = "<group>"; };
+		266AAC0B1ED805C3003A6FAE /* NetworkConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfigure.h; sourceTree = "<group>"; };
+		266AAC0C1ED805C3003A6FAE /* NetworkConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfigure.m; sourceTree = "<group>"; };
+		266AAC0D1ED805C3003A6FAE /* NXTFApi1ClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTFApi1ClientManager.h; sourceTree = "<group>"; };
+		266AAC0E1ED805C3003A6FAE /* NXTFApi1ClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTFApi1ClientManager.m; sourceTree = "<group>"; };
+		266AAC111ED805C3003A6FAE /* AMMServiceCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMServiceCode.h; sourceTree = "<group>"; };
+		266AAC121ED805C3003A6FAE /* AMMServiceCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMServiceCode.m; sourceTree = "<group>"; };
+		266AAC141ED805C3003A6FAE /* AMMNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMNotice.h; sourceTree = "<group>"; };
+		266AAC151ED805C3003A6FAE /* AMMNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMNotice.m; sourceTree = "<group>"; };
+		266AAC171ED805C3003A6FAE /* AMMGesUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMGesUserInfo.h; sourceTree = "<group>"; };
+		266AAC181ED805C3003A6FAE /* AMMGesUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMGesUserInfo.m; sourceTree = "<group>"; };
+		266AAC1A1ED805C3003A6FAE /* AMAAppointmentAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAAppointmentAPI.h; sourceTree = "<group>"; };
+		266AAC1B1ED805C3003A6FAE /* AMAAppointmentAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAAppointmentAPI.m; sourceTree = "<group>"; };
+		266AAC1C1ED805C3003A6FAE /* AMAAppSystemAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAAppSystemAPI.h; sourceTree = "<group>"; };
+		266AAC1D1ED805C3003A6FAE /* AMAAppSystemAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAAppSystemAPI.m; sourceTree = "<group>"; };
+		266AAC1E1ED805C3003A6FAE /* AMADoctorAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMADoctorAPI.h; sourceTree = "<group>"; };
+		266AAC1F1ED805C3003A6FAE /* AMADoctorAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMADoctorAPI.m; sourceTree = "<group>"; };
+		266AAC201ED805C3003A6FAE /* AMAGuideAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAGuideAPI.h; sourceTree = "<group>"; };
+		266AAC211ED805C3003A6FAE /* AMAGuideAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAGuideAPI.m; sourceTree = "<group>"; };
+		266AAC221ED805C3003A6FAE /* AMAInsuranceAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAInsuranceAPI.h; sourceTree = "<group>"; };
+		266AAC231ED805C3003A6FAE /* AMAInsuranceAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAInsuranceAPI.m; sourceTree = "<group>"; };
+		266AAC241ED805C3003A6FAE /* AMANoticeAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMANoticeAPI.h; sourceTree = "<group>"; };
+		266AAC251ED805C3003A6FAE /* AMANoticeAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMANoticeAPI.m; sourceTree = "<group>"; };
+		266AAC261ED805C3003A6FAE /* AMAOrderAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAOrderAPI.h; sourceTree = "<group>"; };
+		266AAC271ED805C3003A6FAE /* AMAOrderAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAOrderAPI.m; sourceTree = "<group>"; };
+		266AAC281ED805C3003A6FAE /* AMAReportAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAReportAPI.h; sourceTree = "<group>"; };
+		266AAC291ED805C3003A6FAE /* AMAReportAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAReportAPI.m; sourceTree = "<group>"; };
+		266AAC2A1ED805C3003A6FAE /* AMAUserCenterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAUserCenterAPI.h; sourceTree = "<group>"; };
+		266AAC2B1ED805C3003A6FAE /* AMAUserCenterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAUserCenterAPI.m; sourceTree = "<group>"; };
+		266AAC2C1ED805C3003A6FAE /* AMAVisitInAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAVisitInAPI.h; sourceTree = "<group>"; };
+		266AAC2D1ED805C3003A6FAE /* AMAVisitInAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAVisitInAPI.m; sourceTree = "<group>"; };
+		266AAC2E1ED805C3003A6FAE /* NXLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXLogin.h; sourceTree = "<group>"; };
+		266AAC2F1ED805C3003A6FAE /* NXLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXLogin.m; sourceTree = "<group>"; };
+		266AAC301ED805C3003A6FAE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		266AAC311ED805C3003A6FAE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		266AAC331ED805C3003A6FAE /* Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		266AAC341ED805C3003A6FAE /* Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		266AAC351ED805C3003A6FAE /* Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
+		266AAC361ED805C3003A6FAE /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
+		266AAC371ED805C3003A6FAE /* Req.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Req.h; sourceTree = "<group>"; };
+		266AAC381ED805C3003A6FAE /* Req.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Req.m; sourceTree = "<group>"; };
+		266AAC391ED805C3003A6FAE /* Resp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resp.h; sourceTree = "<group>"; };
+		266AAC3A1ED805C3003A6FAE /* Resp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resp.m; sourceTree = "<group>"; };
+		266AAC3B1ED805C3003A6FAE /* RespDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespDto.h; sourceTree = "<group>"; };
+		266AAC3C1ED805C3003A6FAE /* RespDto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespDto.m; sourceTree = "<group>"; };
+		266AAC3D1ED805C3003A6FAE /* ViodocCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViodocCore.h; sourceTree = "<group>"; };
+		266AAC3E1ED805C3003A6FAE /* ViodocCoreHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViodocCoreHeader.h; sourceTree = "<group>"; };
+		62E290D01DD097A600EA36C3 /* ViodocCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViodocCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E291E31DD09A7B00EA36C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62E291E51DD09A9B00EA36C3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		62E291E71DD09AAE00EA36C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62E291E91DD09AB900EA36C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62E291EB1DD09AC500EA36C3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		62E291ED1DD09AD600EA36C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		776A57F4B6A72C0B3A844CBF /* Pods-ViodocCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViodocCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViodocCore/Pods-ViodocCore.debug.xcconfig"; sourceTree = "<group>"; };
+		80CC26784235A5CF5CB4C3C4 /* Pods-ViodocCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViodocCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViodocCore/Pods-ViodocCore.release.xcconfig"; sourceTree = "<group>"; };
+		FDB9E2FC13F78BE05A614427 /* libPods-ViodocCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViodocCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E290CC1DD097A600EA36C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E291EE1DD09AD600EA36C3 /* SystemConfiguration.framework in Frameworks */,
+				62E291EC1DD09AC500EA36C3 /* MobileCoreServices.framework in Frameworks */,
+				62E291EA1DD09AB900EA36C3 /* CoreGraphics.framework in Frameworks */,
+				62E291E81DD09AAE00EA36C3 /* Foundation.framework in Frameworks */,
+				62E291E61DD09A9B00EA36C3 /* CoreImage.framework in Frameworks */,
+				62E291E41DD09A7B00EA36C3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266AABB31ED805C3003A6FAE /* ViodocCore */ = {
+			isa = PBXGroup;
+			children = (
+				266AABB41ED805C3003A6FAE /* Base */,
+				266AABBD1ED805C3003A6FAE /* Emart */,
+				266AABCE1ED805C3003A6FAE /* Info.plist */,
+				266AABCF1ED805C3003A6FAE /* NotificationKeyHeader.h */,
+				266AABD01ED805C3003A6FAE /* Thirft */,
+				266AAC061ED805C3003A6FAE /* Viodoc */,
+				266AAC3D1ED805C3003A6FAE /* ViodocCore.h */,
+				266AAC3E1ED805C3003A6FAE /* ViodocCoreHeader.h */,
+			);
+			path = ViodocCore;
+			sourceTree = "<group>";
+		};
+		266AABB41ED805C3003A6FAE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				266AABB51ED805C3003A6FAE /* NSData+AES256.h */,
+				266AABB61ED805C3003A6FAE /* NSData+AES256.m */,
+				266AABB71ED805C3003A6FAE /* NSString+AES256.h */,
+				266AABB81ED805C3003A6FAE /* NSString+AES256.m */,
+				266AABB91ED805C3003A6FAE /* NSString+md5HexDigest.h */,
+				266AABBA1ED805C3003A6FAE /* NSString+md5HexDigest.m */,
+				266AABBB1ED805C3003A6FAE /* NSString+SHA.h */,
+				266AABBC1ED805C3003A6FAE /* NSString+SHA.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		266AABBD1ED805C3003A6FAE /* Emart */ = {
+			isa = PBXGroup;
+			children = (
+				266AABBE1ED805C3003A6FAE /* manager */,
+				266AABC31ED805C3003A6FAE /* thirft */,
+			);
+			path = Emart;
+			sourceTree = "<group>";
+		};
+		266AABBE1ED805C3003A6FAE /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				266AABBF1ED805C3003A6FAE /* NMEmartClientManager.h */,
+				266AABC01ED805C3003A6FAE /* NMEmartClientManager.m */,
+				266AABC11ED805C3003A6FAE /* NMLogin.h */,
+				266AABC21ED805C3003A6FAE /* NMLogin.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		266AABC31ED805C3003A6FAE /* thirft */ = {
+			isa = PBXGroup;
+			children = (
+				266AABC41ED805C3003A6FAE /* MtApi.h */,
+				266AABC51ED805C3003A6FAE /* MtApi.m */,
+				266AABC61ED805C3003A6FAE /* MtBase.h */,
+				266AABC71ED805C3003A6FAE /* MtBase.m */,
+				266AABC81ED805C3003A6FAE /* MtReq.h */,
+				266AABC91ED805C3003A6FAE /* MtReq.m */,
+				266AABCA1ED805C3003A6FAE /* MtResp.h */,
+				266AABCB1ED805C3003A6FAE /* MtResp.m */,
+				266AABCC1ED805C3003A6FAE /* MtRespDto.h */,
+				266AABCD1ED805C3003A6FAE /* MtRespDto.m */,
+			);
+			path = thirft;
+			sourceTree = "<group>";
+		};
+		266AABD01ED805C3003A6FAE /* Thirft */ = {
+			isa = PBXGroup;
+			children = (
+				266AABD11ED805C3003A6FAE /* src */,
+			);
+			path = Thirft;
+			sourceTree = "<group>";
+		};
+		266AABD11ED805C3003A6FAE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				266AABD21ED805C3003A6FAE /* protocol */,
+				266AABE21ED805C3003A6FAE /* server */,
+				266AABE51ED805C3003A6FAE /* TApplicationException.h */,
+				266AABE61ED805C3003A6FAE /* TApplicationException.m */,
+				266AABE71ED805C3003A6FAE /* TBaseClient.h */,
+				266AABE81ED805C3003A6FAE /* TBaseClient.m */,
+				266AABE91ED805C3003A6FAE /* TException.h */,
+				266AABEA1ED805C3003A6FAE /* TException.m */,
+				266AABEB1ED805C3003A6FAE /* Thrift.h */,
+				266AABEC1ED805C3003A6FAE /* TObjective-C.h */,
+				266AABED1ED805C3003A6FAE /* TProcessor.h */,
+				266AABEE1ED805C3003A6FAE /* TProcessorFactory.h */,
+				266AABEF1ED805C3003A6FAE /* transport */,
+				266AAC041ED805C3003A6FAE /* TSharedProcessorFactory.h */,
+				266AAC051ED805C3003A6FAE /* TSharedProcessorFactory.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		266AABD21ED805C3003A6FAE /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				266AABD31ED805C3003A6FAE /* TBase.h */,
+				266AABD41ED805C3003A6FAE /* TBinaryProtocol.h */,
+				266AABD51ED805C3003A6FAE /* TBinaryProtocol.m */,
+				266AABD61ED805C3003A6FAE /* TCompactProtocol.h */,
+				266AABD71ED805C3003A6FAE /* TCompactProtocol.m */,
+				266AABD81ED805C3003A6FAE /* TMultiplexedProtocol.h */,
+				266AABD91ED805C3003A6FAE /* TMultiplexedProtocol.m */,
+				266AABDA1ED805C3003A6FAE /* TProtocol.h */,
+				266AABDB1ED805C3003A6FAE /* TProtocolDecorator.h */,
+				266AABDC1ED805C3003A6FAE /* TProtocolDecorator.m */,
+				266AABDD1ED805C3003A6FAE /* TProtocolException.h */,
+				266AABDE1ED805C3003A6FAE /* TProtocolException.m */,
+				266AABDF1ED805C3003A6FAE /* TProtocolFactory.h */,
+				266AABE01ED805C3003A6FAE /* TProtocolUtil.h */,
+				266AABE11ED805C3003A6FAE /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		266AABE21ED805C3003A6FAE /* server */ = {
+			isa = PBXGroup;
+			children = (
+				266AABE31ED805C3003A6FAE /* TSocketServer.h */,
+				266AABE41ED805C3003A6FAE /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		266AABEF1ED805C3003A6FAE /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				266AABF01ED805C3003A6FAE /* TAsyncTransport.h */,
+				266AABF11ED805C3003A6FAE /* TFramedTransport.h */,
+				266AABF21ED805C3003A6FAE /* TFramedTransport.m */,
+				266AABF31ED805C3003A6FAE /* THTTPClient.h */,
+				266AABF41ED805C3003A6FAE /* THTTPClient.m */,
+				266AABF51ED805C3003A6FAE /* TMemoryBuffer.h */,
+				266AABF61ED805C3003A6FAE /* TMemoryBuffer.m */,
+				266AABF71ED805C3003A6FAE /* TNSFileHandleTransport.h */,
+				266AABF81ED805C3003A6FAE /* TNSFileHandleTransport.m */,
+				266AABF91ED805C3003A6FAE /* TNSStreamTransport.h */,
+				266AABFA1ED805C3003A6FAE /* TNSStreamTransport.m */,
+				266AABFB1ED805C3003A6FAE /* TSocketClient.h */,
+				266AABFC1ED805C3003A6FAE /* TSocketClient.m */,
+				266AABFD1ED805C3003A6FAE /* TSSLSocketClient.h */,
+				266AABFE1ED805C3003A6FAE /* TSSLSocketClient.m */,
+				266AABFF1ED805C3003A6FAE /* TSSLSocketException.h */,
+				266AAC001ED805C3003A6FAE /* TSSLSocketException.m */,
+				266AAC011ED805C3003A6FAE /* TTransport.h */,
+				266AAC021ED805C3003A6FAE /* TTransportException.h */,
+				266AAC031ED805C3003A6FAE /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		266AAC061ED805C3003A6FAE /* Viodoc */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC071ED805C3003A6FAE /* DataBase */,
+				266AAC0A1ED805C3003A6FAE /* manager */,
+				266AAC0F1ED805C3003A6FAE /* Model */,
+				266AAC191ED805C3003A6FAE /* Network */,
+				266AAC321ED805C3003A6FAE /* thirft */,
+			);
+			path = Viodoc;
+			sourceTree = "<group>";
+		};
+		266AAC071ED805C3003A6FAE /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC081ED805C3003A6FAE /* AMDBHelper.h */,
+				266AAC091ED805C3003A6FAE /* AMDBHelper.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		266AAC0A1ED805C3003A6FAE /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC0B1ED805C3003A6FAE /* NetworkConfigure.h */,
+				266AAC0C1ED805C3003A6FAE /* NetworkConfigure.m */,
+				266AAC0D1ED805C3003A6FAE /* NXTFApi1ClientManager.h */,
+				266AAC0E1ED805C3003A6FAE /* NXTFApi1ClientManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		266AAC0F1ED805C3003A6FAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC101ED805C3003A6FAE /* AppointMent */,
+				266AAC131ED805C3003A6FAE /* Notice */,
+				266AAC161ED805C3003A6FAE /* UserCenter */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		266AAC101ED805C3003A6FAE /* AppointMent */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC111ED805C3003A6FAE /* AMMServiceCode.h */,
+				266AAC121ED805C3003A6FAE /* AMMServiceCode.m */,
+			);
+			path = AppointMent;
+			sourceTree = "<group>";
+		};
+		266AAC131ED805C3003A6FAE /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC141ED805C3003A6FAE /* AMMNotice.h */,
+				266AAC151ED805C3003A6FAE /* AMMNotice.m */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		266AAC161ED805C3003A6FAE /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC171ED805C3003A6FAE /* AMMGesUserInfo.h */,
+				266AAC181ED805C3003A6FAE /* AMMGesUserInfo.m */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		266AAC191ED805C3003A6FAE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC1A1ED805C3003A6FAE /* AMAAppointmentAPI.h */,
+				266AAC1B1ED805C3003A6FAE /* AMAAppointmentAPI.m */,
+				266AAC1C1ED805C3003A6FAE /* AMAAppSystemAPI.h */,
+				266AAC1D1ED805C3003A6FAE /* AMAAppSystemAPI.m */,
+				266AAC1E1ED805C3003A6FAE /* AMADoctorAPI.h */,
+				266AAC1F1ED805C3003A6FAE /* AMADoctorAPI.m */,
+				266AAC201ED805C3003A6FAE /* AMAGuideAPI.h */,
+				266AAC211ED805C3003A6FAE /* AMAGuideAPI.m */,
+				266AAC221ED805C3003A6FAE /* AMAInsuranceAPI.h */,
+				266AAC231ED805C3003A6FAE /* AMAInsuranceAPI.m */,
+				266AAC241ED805C3003A6FAE /* AMANoticeAPI.h */,
+				266AAC251ED805C3003A6FAE /* AMANoticeAPI.m */,
+				266AAC261ED805C3003A6FAE /* AMAOrderAPI.h */,
+				266AAC271ED805C3003A6FAE /* AMAOrderAPI.m */,
+				266AAC281ED805C3003A6FAE /* AMAReportAPI.h */,
+				266AAC291ED805C3003A6FAE /* AMAReportAPI.m */,
+				266AAC2A1ED805C3003A6FAE /* AMAUserCenterAPI.h */,
+				266AAC2B1ED805C3003A6FAE /* AMAUserCenterAPI.m */,
+				266AAC2C1ED805C3003A6FAE /* AMAVisitInAPI.h */,
+				266AAC2D1ED805C3003A6FAE /* AMAVisitInAPI.m */,
+				266AAC2E1ED805C3003A6FAE /* NXLogin.h */,
+				266AAC2F1ED805C3003A6FAE /* NXLogin.m */,
+				266AAC301ED805C3003A6FAE /* Reachability.h */,
+				266AAC311ED805C3003A6FAE /* Reachability.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		266AAC321ED805C3003A6FAE /* thirft */ = {
+			isa = PBXGroup;
+			children = (
+				266AAC331ED805C3003A6FAE /* Api.h */,
+				266AAC341ED805C3003A6FAE /* Api.m */,
+				266AAC351ED805C3003A6FAE /* Base.h */,
+				266AAC361ED805C3003A6FAE /* Base.m */,
+				266AAC371ED805C3003A6FAE /* Req.h */,
+				266AAC381ED805C3003A6FAE /* Req.m */,
+				266AAC391ED805C3003A6FAE /* Resp.h */,
+				266AAC3A1ED805C3003A6FAE /* Resp.m */,
+				266AAC3B1ED805C3003A6FAE /* RespDto.h */,
+				266AAC3C1ED805C3003A6FAE /* RespDto.m */,
+			);
+			path = thirft;
+			sourceTree = "<group>";
+		};
+		62E290C61DD097A600EA36C3 = {
+			isa = PBXGroup;
+			children = (
+				266AABB31ED805C3003A6FAE /* ViodocCore */,
+				62E290D11DD097A600EA36C3 /* Products */,
+				62E291E21DD09A7A00EA36C3 /* Frameworks */,
+				89D82373C8EEA023532E44D4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		62E290D11DD097A600EA36C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E290D01DD097A600EA36C3 /* ViodocCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E291E21DD09A7A00EA36C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E291ED1DD09AD600EA36C3 /* SystemConfiguration.framework */,
+				62E291EB1DD09AC500EA36C3 /* MobileCoreServices.framework */,
+				62E291E91DD09AB900EA36C3 /* CoreGraphics.framework */,
+				62E291E71DD09AAE00EA36C3 /* Foundation.framework */,
+				62E291E51DD09A9B00EA36C3 /* CoreImage.framework */,
+				62E291E31DD09A7B00EA36C3 /* UIKit.framework */,
+				FDB9E2FC13F78BE05A614427 /* libPods-ViodocCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89D82373C8EEA023532E44D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776A57F4B6A72C0B3A844CBF /* Pods-ViodocCore.debug.xcconfig */,
+				80CC26784235A5CF5CB4C3C4 /* Pods-ViodocCore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		62E290CD1DD097A600EA36C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AAC941ED805C3003A6FAE /* AMAAppointmentAPI.h in Headers */,
+				266AAC7B1ED805C3003A6FAE /* TNSStreamTransport.h in Headers */,
+				266AAC9E1ED805C3003A6FAE /* AMANoticeAPI.h in Headers */,
+				266AAC831ED805C3003A6FAE /* TTransport.h in Headers */,
+				266AAC531ED805C3003A6FAE /* MtRespDto.h in Headers */,
+				266AACA61ED805C3003A6FAE /* AMAVisitInAPI.h in Headers */,
+				266AAC6A1ED805C3003A6FAE /* TBaseClient.h in Headers */,
+				266AAC4B1ED805C3003A6FAE /* MtApi.h in Headers */,
+				266AAC901ED805C3003A6FAE /* AMMNotice.h in Headers */,
+				266AAC571ED805C3003A6FAE /* TBase.h in Headers */,
+				266AAC411ED805C3003A6FAE /* NSString+AES256.h in Headers */,
+				266AAC8A1ED805C3003A6FAE /* NetworkConfigure.h in Headers */,
+				266AAC8E1ED805C3003A6FAE /* AMMServiceCode.h in Headers */,
+				266AAC4D1ED805C3003A6FAE /* MtBase.h in Headers */,
+				266AACA41ED805C3003A6FAE /* AMAUserCenterAPI.h in Headers */,
+				266AACAE1ED805C3003A6FAE /* Base.h in Headers */,
+				266AAC631ED805C3003A6FAE /* TProtocolFactory.h in Headers */,
+				266AAC6C1ED805C3003A6FAE /* TException.h in Headers */,
+				266AACAC1ED805C3003A6FAE /* Api.h in Headers */,
+				266AACB71ED805C3003A6FAE /* ViodocCoreHeader.h in Headers */,
+				266AAC431ED805C3003A6FAE /* NSString+md5HexDigest.h in Headers */,
+				266AAC3F1ED805C3003A6FAE /* NSData+AES256.h in Headers */,
+				266AACA01ED805C3003A6FAE /* AMAOrderAPI.h in Headers */,
+				266AAC681ED805C3003A6FAE /* TApplicationException.h in Headers */,
+				266AACB41ED805C3003A6FAE /* RespDto.h in Headers */,
+				266AAC881ED805C3003A6FAE /* AMDBHelper.h in Headers */,
+				266AAC981ED805C3003A6FAE /* AMADoctorAPI.h in Headers */,
+				266AAC471ED805C3003A6FAE /* NMEmartClientManager.h in Headers */,
+				266AAC5E1ED805C3003A6FAE /* TProtocol.h in Headers */,
+				266AAC641ED805C3003A6FAE /* TProtocolUtil.h in Headers */,
+				266AAC9C1ED805C3003A6FAE /* AMAInsuranceAPI.h in Headers */,
+				266AAC4F1ED805C3003A6FAE /* MtReq.h in Headers */,
+				266AACA21ED805C3003A6FAE /* AMAReportAPI.h in Headers */,
+				266AAC8C1ED805C3003A6FAE /* NXTFApi1ClientManager.h in Headers */,
+				266AAC611ED805C3003A6FAE /* TProtocolException.h in Headers */,
+				266AACB01ED805C3003A6FAE /* Req.h in Headers */,
+				266AAC511ED805C3003A6FAE /* MtResp.h in Headers */,
+				266AACA81ED805C3003A6FAE /* NXLogin.h in Headers */,
+				266AAC9A1ED805C3003A6FAE /* AMAGuideAPI.h in Headers */,
+				266AAC921ED805C3003A6FAE /* AMMGesUserInfo.h in Headers */,
+				266AAC6F1ED805C3003A6FAE /* TObjective-C.h in Headers */,
+				266AACB21ED805C3003A6FAE /* Resp.h in Headers */,
+				266AACB61ED805C3003A6FAE /* ViodocCore.h in Headers */,
+				266AAC961ED805C3003A6FAE /* AMAAppSystemAPI.h in Headers */,
+				266AAC561ED805C3003A6FAE /* NotificationKeyHeader.h in Headers */,
+				266AAC721ED805C3003A6FAE /* TAsyncTransport.h in Headers */,
+				266AAC491ED805C3003A6FAE /* NMLogin.h in Headers */,
+				266AAC701ED805C3003A6FAE /* TProcessor.h in Headers */,
+				266AAC751ED805C3003A6FAE /* THTTPClient.h in Headers */,
+				266AAC811ED805C3003A6FAE /* TSSLSocketException.h in Headers */,
+				266AAC791ED805C3003A6FAE /* TNSFileHandleTransport.h in Headers */,
+				266AAC5F1ED805C3003A6FAE /* TProtocolDecorator.h in Headers */,
+				266AAC5A1ED805C3003A6FAE /* TCompactProtocol.h in Headers */,
+				266AAC5C1ED805C3003A6FAE /* TMultiplexedProtocol.h in Headers */,
+				266AAC731ED805C3003A6FAE /* TFramedTransport.h in Headers */,
+				266AAC711ED805C3003A6FAE /* TProcessorFactory.h in Headers */,
+				266AAC771ED805C3003A6FAE /* TMemoryBuffer.h in Headers */,
+				266AAC7D1ED805C3003A6FAE /* TSocketClient.h in Headers */,
+				266AAC661ED805C3003A6FAE /* TSocketServer.h in Headers */,
+				266AAC7F1ED805C3003A6FAE /* TSSLSocketClient.h in Headers */,
+				266AAC451ED805C3003A6FAE /* NSString+SHA.h in Headers */,
+				266AAC861ED805C3003A6FAE /* TSharedProcessorFactory.h in Headers */,
+				266AAC6E1ED805C3003A6FAE /* Thrift.h in Headers */,
+				266AACAA1ED805C3003A6FAE /* Reachability.h in Headers */,
+				266AAC581ED805C3003A6FAE /* TBinaryProtocol.h in Headers */,
+				266AAC841ED805C3003A6FAE /* TTransportException.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62E290CF1DD097A600EA36C3 /* ViodocCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E290D81DD097A600EA36C3 /* Build configuration list for PBXNativeTarget "ViodocCore" */;
+			buildPhases = (
+				DCBB6A4CF0D8144CD1B23009 /* [CP] Check Pods Manifest.lock */,
+				62E290CB1DD097A600EA36C3 /* Sources */,
+				62E290CC1DD097A600EA36C3 /* Frameworks */,
+				62E290CD1DD097A600EA36C3 /* Headers */,
+				62E290CE1DD097A600EA36C3 /* Resources */,
+				D3C6409DFD6E3B6D961F284E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViodocCore;
+			productName = NioxCore;
+			productReference = 62E290D01DD097A600EA36C3 /* ViodocCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E290C71DD097A600EA36C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DC;
+				TargetAttributes = {
+					621D52B31DD1EBF90012BCA5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					62E290CF1DD097A600EA36C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62E290CA1DD097A600EA36C3 /* Build configuration list for PBXProject "ViodocCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62E290C61DD097A600EA36C3;
+			productRefGroup = 62E290D11DD097A600EA36C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E290CF1DD097A600EA36C3 /* ViodocCore */,
+				621D52B31DD1EBF90012BCA5 /* ViodocCoreAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E290CE1DD097A600EA36C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AAC551ED805C3003A6FAE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		621D52B71DD1EC3D0012BCA5 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"MyFramework\"\nFMK_NAME=${PROJECT_NAME}\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n# Working dir will be deleted after the framework creation.\nWRK_DIR=${BUILD_DIR}\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\nopen \"${INSTALL_DIR}\"";
+		};
+		D3C6409DFD6E3B6D961F284E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViodocCore/Pods-ViodocCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCBB6A4CF0D8144CD1B23009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E290CB1DD097A600EA36C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266AAC5D1ED805C3003A6FAE /* TMultiplexedProtocol.m in Sources */,
+				266AAC6D1ED805C3003A6FAE /* TException.m in Sources */,
+				266AAC461ED805C3003A6FAE /* NSString+SHA.m in Sources */,
+				266AAC6B1ED805C3003A6FAE /* TBaseClient.m in Sources */,
+				266AAC4C1ED805C3003A6FAE /* MtApi.m in Sources */,
+				266AAC871ED805C3003A6FAE /* TSharedProcessorFactory.m in Sources */,
+				266AACAD1ED805C3003A6FAE /* Api.m in Sources */,
+				266AACA71ED805C3003A6FAE /* AMAVisitInAPI.m in Sources */,
+				266AAC521ED805C3003A6FAE /* MtResp.m in Sources */,
+				266AAC651ED805C3003A6FAE /* TProtocolUtil.m in Sources */,
+				266AAC7C1ED805C3003A6FAE /* TNSStreamTransport.m in Sources */,
+				266AAC9B1ED805C3003A6FAE /* AMAGuideAPI.m in Sources */,
+				266AAC821ED805C3003A6FAE /* TSSLSocketException.m in Sources */,
+				266AACAF1ED805C3003A6FAE /* Base.m in Sources */,
+				266AAC621ED805C3003A6FAE /* TProtocolException.m in Sources */,
+				266AAC911ED805C3003A6FAE /* AMMNotice.m in Sources */,
+				266AAC9D1ED805C3003A6FAE /* AMAInsuranceAPI.m in Sources */,
+				266AACB51ED805C3003A6FAE /* RespDto.m in Sources */,
+				266AAC401ED805C3003A6FAE /* NSData+AES256.m in Sources */,
+				266AAC991ED805C3003A6FAE /* AMADoctorAPI.m in Sources */,
+				266AAC781ED805C3003A6FAE /* TMemoryBuffer.m in Sources */,
+				266AACB11ED805C3003A6FAE /* Req.m in Sources */,
+				266AACA11ED805C3003A6FAE /* AMAOrderAPI.m in Sources */,
+				266AAC7A1ED805C3003A6FAE /* TNSFileHandleTransport.m in Sources */,
+				266AAC741ED805C3003A6FAE /* TFramedTransport.m in Sources */,
+				266AAC951ED805C3003A6FAE /* AMAAppointmentAPI.m in Sources */,
+				266AAC851ED805C3003A6FAE /* TTransportException.m in Sources */,
+				266AAC931ED805C3003A6FAE /* AMMGesUserInfo.m in Sources */,
+				266AAC541ED805C3003A6FAE /* MtRespDto.m in Sources */,
+				266AAC501ED805C3003A6FAE /* MtReq.m in Sources */,
+				266AAC4A1ED805C3003A6FAE /* NMLogin.m in Sources */,
+				266AAC761ED805C3003A6FAE /* THTTPClient.m in Sources */,
+				266AAC441ED805C3003A6FAE /* NSString+md5HexDigest.m in Sources */,
+				266AACB31ED805C3003A6FAE /* Resp.m in Sources */,
+				266AAC481ED805C3003A6FAE /* NMEmartClientManager.m in Sources */,
+				266AAC7E1ED805C3003A6FAE /* TSocketClient.m in Sources */,
+				266AAC9F1ED805C3003A6FAE /* AMANoticeAPI.m in Sources */,
+				266AAC421ED805C3003A6FAE /* NSString+AES256.m in Sources */,
+				266AAC601ED805C3003A6FAE /* TProtocolDecorator.m in Sources */,
+				266AAC671ED805C3003A6FAE /* TSocketServer.m in Sources */,
+				266AACA91ED805C3003A6FAE /* NXLogin.m in Sources */,
+				266AAC971ED805C3003A6FAE /* AMAAppSystemAPI.m in Sources */,
+				266AAC4E1ED805C3003A6FAE /* MtBase.m in Sources */,
+				266AAC891ED805C3003A6FAE /* AMDBHelper.m in Sources */,
+				266AAC5B1ED805C3003A6FAE /* TCompactProtocol.m in Sources */,
+				266AACA51ED805C3003A6FAE /* AMAUserCenterAPI.m in Sources */,
+				266AAC8D1ED805C3003A6FAE /* NXTFApi1ClientManager.m in Sources */,
+				266AAC591ED805C3003A6FAE /* TBinaryProtocol.m in Sources */,
+				266AAC691ED805C3003A6FAE /* TApplicationException.m in Sources */,
+				266AAC8F1ED805C3003A6FAE /* AMMServiceCode.m in Sources */,
+				266AACAB1ED805C3003A6FAE /* Reachability.m in Sources */,
+				266AACA31ED805C3003A6FAE /* AMAReportAPI.m in Sources */,
+				266AAC801ED805C3003A6FAE /* TSSLSocketClient.m in Sources */,
+				266AAC8B1ED805C3003A6FAE /* NetworkConfigure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		621D52B41DD1EBF90012BCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		621D52B51DD1EBF90012BCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62E290D61DD097A600EA36C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62E290D71DD097A600EA36C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62E290D91DD097A600EA36C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 776A57F4B6A72C0B3A844CBF /* Pods-ViodocCore.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ViodocCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = van.dc.ViodocCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		62E290DA1DD097A600EA36C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CC26784235A5CF5CB4C3C4 /* Pods-ViodocCore.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ViodocCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = van.dc.ViodocCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621D52B61DD1EBF90012BCA5 /* Build configuration list for PBXAggregateTarget "ViodocCoreAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621D52B41DD1EBF90012BCA5 /* Debug */,
+				621D52B51DD1EBF90012BCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E290CA1DD097A600EA36C3 /* Build configuration list for PBXProject "ViodocCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E290D61DD097A600EA36C3 /* Debug */,
+				62E290D71DD097A600EA36C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E290D81DD097A600EA36C3 /* Build configuration list for PBXNativeTarget "ViodocCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E290D91DD097A600EA36C3 /* Debug */,
+				62E290DA1DD097A600EA36C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E290C71DD097A600EA36C3 /* Project object */;
+}

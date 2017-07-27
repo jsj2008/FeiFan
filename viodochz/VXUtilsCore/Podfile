@@ -1,0 +1,11 @@
+
+platform :ios, '7.0'
+
+target "VXUtilsCore" do
+
+#pod 'SDWebImage', '~>3.7'
+pod 'MJRefresh'
+pod 'ZXingObjC', '~>3.0'
+
+end
+

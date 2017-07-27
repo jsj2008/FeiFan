@@ -1,0 +1,17 @@
+PODS:
+  - MJRefresh (3.1.12)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - MJRefresh
+  - ZXingObjC (~> 3.0)
+
+SPEC CHECKSUMS:
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+PODFILE CHECKSUM: 51f55998d099dbf49c1eaefb5742536abf9d1711
+
+COCOAPODS: 1.0.1

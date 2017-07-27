@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  NioxUtilsCore
+//
+//  Created by duanxiaochen on 2016/11/14.
+//  Copyright © 2016年 DC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#import "UMMobClick/MobClick.h"
+#import "NXUMAnalyticsConst.h"
+
+#import "NioxUtilsCore.h"
+#import "NXAlertLabel.h"
+
+#endif /* PrefixHeader_pch */

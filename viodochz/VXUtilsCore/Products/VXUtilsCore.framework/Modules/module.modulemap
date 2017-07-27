@@ -1,0 +1,6 @@
+framework module VXUtilsCore {
+  umbrella header "VXUtilsCore.h"
+
+  export *
+  module * { export * }
+}
